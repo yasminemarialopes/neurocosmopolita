@@ -1,11 +1,24 @@
 Siga a seguinte estrutura de pastas para manter a organização do projeto:
 
-├── neurocosmopolita (Site pessoal e blog)
-│   ├── public (Arquivos estáticos como CSS, JS, imagens)  
+├── neurocosmopolita
+│   ├── public  
+│   │   ├── assets
+│   │   │   ├── images
+│   │   │   │   ├── logo.png
+│   │   │   │   ├── author.jpg
+│   │   │   ├── styles
+│   │   │   │   ├── index.css
+│   │   ├── index.html
 │   ├── src
-│   │   ├── components (Componentes React)
-│   │   ├── pages (Páginas React)
-│   │   ├── templates (Modelos de páginas)
-│   │   ├── App.js (Arquivo raiz)
-│   │   ├── index.js (Ponto de entrada)
+│   │   ├── components
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   ├── Post.js
+│   │   ├── pages
+│   │   │   ├── Home.js
+│   │   │   ├── About.js
+│   │   │   ├── Blog.js  
+│   │   │   ├── Post.js
+│   │   ├── App.js
+│   │   ├── index.js
 │   ├── package.json
